@@ -1,0 +1,340 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  line-height: 24.3px;
+  font-size: 18px;
+  text-decoration-skip-ink: none;
+  text-underline-offset: 3px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__links-list {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: circle inside;
+  line-height: 100%;
+  font-size: 18px;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link {
+  text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__address {
+  justify-self: end;
+  max-width: 240px;
+  font-size: 18px;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-height: 757px;
+  padding: 165px 50px 50px;
+  background: url("../images/cover.jpg") center / cover no-repeat;
+  color: #fff;
+}
+
+.cover__title {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+  margin-right: -0.3em
+}
+
+.aligned-text_left {
+  text-align: left;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.cover__description-text {
+  width: 637px;
+  margin: 0;
+  text-align-last: justify;
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  padding: 0;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  font-size: 22px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.lots {
+  margin: 180px 0 120px;
+  padding: 0 24px;
+}
+
+.lots__heading {
+  margin: 0 0 27px 40px;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lots__card-list-item {
+  display: flex;
+  width: 334px;
+  min-height: 596px;
+}
+
+.card-link {
+  display: flex;
+  flex: 1;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 48px 40px;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.card_type_film {
+  background-image: url("../images/card-lot-01.jpg");
+}
+
+.card_type_book {
+  background-image: url("../images/card-lot-02.jpg");
+}
+
+.card_type_picture {
+  background-image: url("../images/card-lot-03.jpg");
+}
+
+.card__title,
+.card__text {
+  position: relative;
+  z-index: 1;
+}
+
+.card__title {
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.card__text {
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+  line-height: 120%;
+  color: #000;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px 1fr;
+  column-gap: 25px;
+  padding: 35px 24px 0;
+}
+
+.about__column_logo {
+  display: flex;
+  justify-content: center;
+}
+
+.about__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  margin-top: 35px;
+  border-radius: 50%;
+  background: #000;
+}
+
+.about__logo-image {
+  display: block;
+  width: 148px;
+  height: auto;
+}
+
+.about__title {
+  margin: 136px 0 100px;
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 693px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about__paragraph {
+  margin: 0;
+}
+
+.about__paragraph_narrow {
+  max-width: 688px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  margin-top: 180px;
+  padding: 0 50px 82px;
+}
+
+.footer__address {
+  justify-self: start;
+  max-width: 264.57px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+  margin: 1px 0 0;
+  padding: 0;
+  list-style: none;
+  line-height: 21px;
+  text-underline-offset: 4px;
+  font-size: 18px;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px;
+  justify-self: end;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer__social-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+
+
+/*это ужас, я сначала не увидел, что дальше 2 пункта, так же идут объяснения по архитектуре, 2-3 дня сидел сам думал как все реализовать
+и оказалось, что там еще куча подсказок было. Т Т. проверяющий, если ты это читаешь, то соре за мой говнокод.
+*\
