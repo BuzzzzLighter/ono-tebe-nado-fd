@@ -152,6 +152,7 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   margin: 0;
   padding: 0;
