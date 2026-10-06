@@ -57,12 +57,6 @@
   text-decoration: none;
 }
 
-.header__logo {
-  display: block;
-  width: 148px;
-  height: 105px;
-}
-
 .header__address {
   justify-self: end;
   max-width: 240px;
